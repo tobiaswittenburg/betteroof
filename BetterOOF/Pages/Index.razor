@@ -1,0 +1,53 @@
+﻿@page "/"
+@using BetterOOF.Data
+@using BetterOOF.Services
+
+@inject ClipboardService ClipboardService
+
+
+<EditForm Model="@oofModel" OnValidSubmit="@HandleValidSubmit">
+<PageTitle>BetterOOF</PageTitle>
+    <div>
+<h1>A better OOF!</h1>
+<h2>Bring your oof reply to the next level....just fill out this form.</h2>
+    </div>
+<div class="mb-3">
+            <label for="inputDateOfReturn" class="form-label">Day of your return:</label><br />
+            <InputDate id="inputDateOfReturn" rows="1" class="form-control" @bind-Value="oofModel.DateOfReturn"/>
+            </div>
+            <div class="mb-3">
+            <InputCheckbox @bind-Value="oofModel.NoStandIn" class="form-chck-input" id="checkNoStandin">No Standin</InputCheckbox><label class="form-check-label" for="checkNoStandin"> No Standin (ignores information below)</label><br />
+            <label for="textStandInContactInfo" class="form-label">Your Stand-In contact information:</label>
+            <textarea id="textStandInContactInfo" class="form-control" rows="3" @bind="oofModel.StandInInformation" />
+            </div>
+    <div class="mb-3">
+            <label class="form-label">Languages</label><br />
+    <div class="form-check">
+        <InputCheckbox @bind-Value="oofModel.ConvertEnglish" class="form-check-input" id="checkEnglish">English</InputCheckbox><label class="form-check-label" for="checkEnglish">English</label><br />
+        <InputCheckbox @bind-Value="oofModel.ConvertGerman" class="form-check-input" id="checkGerman">German</InputCheckbox><label class="form-check-label" for="checkGerman">German</label><br />
+        <InputCheckbox @bind-Value="oofModel.ConvertFrench" class="form-check-input" id="checkFrench">French</InputCheckbox><label class="form-check-label" for="checkFrench">French</label><br />
+            </div>
+    </div>
+            <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+    <div class="mb-3">
+       
+
+        <textarea @bind="oofModel.ResultText" class="form-control" rows="3" disabled readonly></textarea>
+        <button type="button" class="btn btn-secondary" @onclick="CopyToClipboard">Copy to Clipboard!</button>
+        
+</div>
+</EditForm>
+@code{
+    private OOFModel oofModel = new OOFModel();
+
+    private async void CopyToClipboard() => await ClipboardService.WriteTextAsync(oofModel.ResultText);
+
+
+    private void HandleValidSubmit()
+    {
+        this.oofModel.Convert();
+    }
+
+}
