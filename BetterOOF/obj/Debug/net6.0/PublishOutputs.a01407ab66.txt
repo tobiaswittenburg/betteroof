@@ -1,0 +1,7 @@
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Debug\net6.0\PubTmp\Out\BetterOOF.exe
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Debug\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Debug\net6.0\PubTmp\Out\appsettings.json
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Debug\net6.0\PubTmp\Out\BetterOOF.dll
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Debug\net6.0\PubTmp\Out\BetterOOF.deps.json
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Debug\net6.0\PubTmp\Out\BetterOOF.runtimeconfig.json
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Debug\net6.0\PubTmp\Out\BetterOOF.pdb
