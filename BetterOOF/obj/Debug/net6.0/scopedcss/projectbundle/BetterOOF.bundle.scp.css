@@ -11,7 +11,7 @@ main[b-lhna3bxr1e] {
 
 .sidebar[b-lhna3bxr1e] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
-    }
+}
 
 .top-row[b-lhna3bxr1e] {
     background-color: #f7f7f7;
@@ -22,15 +22,20 @@ main[b-lhna3bxr1e] {
     align-items: center;
 }
 
-    .top-row[b-lhna3bxr1e]  a, .top-row .btn-link[b-lhna3bxr1e] {
+    .top-row[b-lhna3bxr1e]  a, .top-row[b-lhna3bxr1e]  .btn-link {
         white-space: nowrap;
         margin-left: 1.5rem;
+        text-decoration: none;
     }
 
-    .top-row a:first-child[b-lhna3bxr1e] {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+        .top-row[b-lhna3bxr1e]  a:hover, .top-row[b-lhna3bxr1e]  .btn-link:hover {
+            text-decoration: underline;
+        }
+
+        .top-row[b-lhna3bxr1e]  a:first-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
 
 @media (max-width: 640.98px) {
     .top-row:not(.auth)[b-lhna3bxr1e] {
@@ -41,7 +46,7 @@ main[b-lhna3bxr1e] {
         justify-content: space-between;
     }
 
-    .top-row a[b-lhna3bxr1e], .top-row .btn-link[b-lhna3bxr1e] {
+    .top-row[b-lhna3bxr1e]  a, .top-row[b-lhna3bxr1e]  .btn-link {
         margin-left: 0;
     }
 }
@@ -63,6 +68,12 @@ main[b-lhna3bxr1e] {
         top: 0;
         z-index: 1;
     }
+
+        .top-row.auth[b-lhna3bxr1e]  a:first-child {
+            flex: 1;
+            text-align: right;
+            width: 0;
+        }
 
     .top-row[b-lhna3bxr1e], article[b-lhna3bxr1e] {
         padding-left: 2rem !important;
@@ -112,15 +123,15 @@ main[b-lhna3bxr1e] {
         line-height: 3rem;
     }
 
-.nav-item[b-8wynqd6iom]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
-}
+        .nav-item[b-8wynqd6iom]  a.active {
+            background-color: rgba(255,255,255,0.25);
+            color: white;
+        }
 
-.nav-item[b-8wynqd6iom]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
+        .nav-item[b-8wynqd6iom]  a:hover {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+        }
 
 @media (min-width: 641px) {
     .navbar-toggler[b-8wynqd6iom] {

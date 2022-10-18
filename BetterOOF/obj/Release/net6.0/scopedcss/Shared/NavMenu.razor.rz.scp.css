@@ -40,15 +40,15 @@
         line-height: 3rem;
     }
 
-.nav-item[b-8wynqd6iom]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
-}
+        .nav-item[b-8wynqd6iom]  a.active {
+            background-color: rgba(255,255,255,0.25);
+            color: white;
+        }
 
-.nav-item[b-8wynqd6iom]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
+        .nav-item[b-8wynqd6iom]  a:hover {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+        }
 
 @media (min-width: 641px) {
     .navbar-toggler[b-8wynqd6iom] {
