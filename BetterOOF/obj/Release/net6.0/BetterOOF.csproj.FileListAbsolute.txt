@@ -9,10 +9,6 @@ C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\BetterOOF.
 C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\BetterOOF.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\staticwebassets.build.json
 C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\staticwebassets.development.json
-C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
-C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\scopedcss\bundle\BetterOOF.styles.css
-C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\scopedcss\projectbundle\BetterOOF.bundle.scp.css
 C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\BetterOOF.dll
 C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\refint\BetterOOF.dll
 C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\BetterOOF.pdb
@@ -813,3 +809,7 @@ C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\build-gz\0
 C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\build-gz\1V7H942a.gz
 C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\blazor.boot.json
 C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\BetterOOF.csproj.CopyComplete
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\scopedcss\bundle\BetterOOF.styles.css
+C:\Users\towitten\source\repos\BetterOOF\BetterOOF\obj\Release\net6.0\scopedcss\projectbundle\BetterOOF.bundle.scp.css
